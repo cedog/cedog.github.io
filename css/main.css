@@ -1166,7 +1166,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4d5b14;
+  background: #427de0;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2137,6 +2137,10 @@ ul.breadcrumb li + li:last-child {
 }
 .tag-cloud a:hover {
   color: #222 !important;
+}
+.has-jax {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .header {
   margin: 0 auto;
