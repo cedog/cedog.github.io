@@ -46,32 +46,27 @@
   };
 </script>
 
-  <meta name="description" content="1. 安装redis $ wget http://download.redis.io/releases/redis-3.2.2.tar.gz">
-<meta name="keywords" content="redis">
-<meta property="og:type" content="article">
-<meta property="og:title" content="redis开发与运维学习（第1章 初识redis)">
-<meta property="og:url" content="http://yoursite.com/2018/12/08/redis开发与运维学习_初识redis/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="CEdog&#39;s Blog">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
 <meta property="og:site_name" content="CEdog&#39;s Blog">
-<meta property="og:description" content="1. 安装redis $ wget http://download.redis.io/releases/redis-3.2.2.tar.gz">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-03-07T09:54:03.509Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="redis开发与运维学习（第1章 初识redis)">
-<meta name="twitter:description" content="1. 安装redis $ wget http://download.redis.io/releases/redis-3.2.2.tar.gz">
+<meta name="twitter:title" content="CEdog&#39;s Blog">
 
-<link rel="canonical" href="http://yoursite.com/2018/12/08/redis开发与运维学习_初识redis/">
+<link rel="canonical" href="http://yoursite.com/page/2/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: false,
-    isPost: true
+    isHome: true,
+    isPost: false
   };
 </script>
 
-  <title>redis开发与运维学习（第1章 初识redis) | CEdog's Blog</title>
+  <title>CEdog's Blog</title>
   
 
 
@@ -178,10 +173,10 @@
             
 
   <div class="posts-expand">
-      
+        
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/08/redis开发与运维学习_初识redis/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -195,7 +190,8 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          redis开发与运维学习（第1章 初识redis)
+          
+            <a href="/2018/12/08/redis开发与运维学习_初识redis/" class="post-title-link" itemprop="url">redis开发与运维学习（第1章 初识redis)</a>
         </h1>
 
         <div class="post-meta">
@@ -226,14 +222,7 @@
                 </span>
             </span>
 
-          
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span><br>
+          <br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="fa fa-file-word-o"></i>
@@ -258,76 +247,37 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="1-安装redis"><a href="#1-安装redis" class="headerlink" title="1. 安装redis"></a>1. 安装redis</h2><ol>
-<li>$ wget <a href="http://download.redis.io/releases/redis-3.2.2.tar.gz" target="_blank" rel="noopener">http://download.redis.io/releases/redis-3.2.2.tar.gz</a> <a id="more"></a></li>
-<li>$ tar  xzf redis-3.2.3.tar.gz </li>
-<li>$ cd redis-3.2.3</li>
-<li>$ make</li>
-<li>$ make install(将Redis的相关运行文件写到系统文件中，这样就可以在任意目录下执行redis的命令，需要root权限)</li>
-<li>$ redis-cli -v 查看版本</li>
-</ol>
-<h2 id="2-启动和停止redis"><a href="#2-启动和停止redis" class="headerlink" title="2. 启动和停止redis"></a>2. 启动和停止redis</h2><ol>
-<li>redis-server (默认配置启动)</li>
-<li>redis-server –key1 value1  –key2 value2 (加上要修改的配置名和值（可以多对），未设置的按照默认配置)</li>
-<li>redis-server  配置文件redis.conf路径（配置文件启动)</li>
-<li>redis-cli shutdown nosave|save  停止redis服务(是否生成持久化文件)</li>
-</ol>
-
+          <h2 id="1-安装redis"><a href="#1-安装redis" class="headerlink" title="1. 安装redis"></a>1. 安装redis</h2><ol>
+<li>$ wget <a href="http://download.redis.io/releases/redis-3.2.2.tar.gz" target="_blank" rel="noopener">http://download.redis.io/releases/redis-3.2.2.tar.gz</a>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2018/12/08/redis开发与运维学习_初识redis/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
     </div>
 
     
     
     
-        
-
-<div>
-<ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者： </strong>CEdog
-  </li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="http://yoursite.com/2018/12/08/redis开发与运维学习_初识redis/" title="redis开发与运维学习（第1章 初识redis)">http://yoursite.com/2018/12/08/redis开发与运维学习_初识redis/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
-  </li>
-</ul>
-</div>
-
-	  <div>
-	    
-          <div>
-    
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
-    
-</div>
-        
-	  </div>
       <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/redis/" rel="tag"><i class="fa fa-tag"></i> redis</a>
-          </div>
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item"></div>
-      <div class="post-nav-item">
-    <a href="/2018/12/09/redis开发与运维学习_API的理解和使用/" rel="next" title="redis开发与运维（第2章 API的理解和使用)">
-      redis开发与运维（第2章 API的理解和使用) <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
+        <div class="post-eof"></div>
       </footer>
-    
   </article>
   
   
   
 
   </div>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
 
 
           </div>
@@ -378,7 +328,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-安装redis"><span class="nav-text">1. 安装redis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-启动和停止redis"><span class="nav-text">2. 启动和停止redis</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
